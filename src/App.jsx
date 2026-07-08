@@ -70,7 +70,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>React Todo App</h1>
+      <h1>Todo App</h1>
 
       <TodoInput addTodo={addTodo} />
 

@@ -1,16 +1,80 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+This project is a Todo application developed with React and Vite. It was built to strengthen my understanding of React by implementing common features used in real applications. The focus of the project is on state management, user interaction, and building a clean, responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Filter tasks by All, Active, and Completed
+- Display total, completed, and remaining tasks
+- Responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript (ES6)
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Preview
+
+# Todo App - React
+
+
+![App Screenshot](./src/assets/to-do-app.png)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/maryamishfaqqq/To-Do-List.git
+```
+
+Go to the project directory:
+
+```bash
+cd To-Do-List
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Folder Structure
+
+```
+To-Do-List/
+│── public/
+│── src/
+│── index.html
+│── package.json
+│── vite.config.js
+└── README.md
+```
+
+## Future Improvements
+
+- Store tasks in Local Storage
+- Add search functionality
+- Improve accessibility
+- Add drag-and-drop task ordering
+
+## Author
+
+**Maryam Ashfaq**
+
+GitHub: https://github.com/maryamishfaqqq
